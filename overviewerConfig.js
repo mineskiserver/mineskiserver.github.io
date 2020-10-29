@@ -23,11 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "mineski - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1603887316",
+        "cacheTag": "1603959953",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -43,29 +43,31 @@ var overviewerConfig = {
         {
             "name": "Overworld",
             "zoomLevels": 9,
-            "defaultZoom": 1,
+            "defaultZoom": 5,
             "maxZoom": 9,
             "path": "mineskiday",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
-            "last_rendertime": 1603882698,
+            "world": "mineski - overworld",
+            "last_rendertime": 0,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
                 112,
-                63,
-                127
+                84,
+                -128
             ],
             "minZoom": 0,
             "spawn": [
                 112,
-                63,
-                127
+                84,
+                -128
             ],
-            "north_direction": 0
+            "north_direction": 0,
+            "render_in_progress": true,
+            "forcerendertime": 1603959918
         }
     ]
 };
