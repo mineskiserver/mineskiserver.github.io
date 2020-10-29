@@ -37,14 +37,14 @@ var overviewerConfig = {
             "compass": true,
             "mapType": true,
             "overlays": true,
-            "coordsBox": true
+            "coordsBox": false
         }
     },
     "tilesets": [
         {
             "name": "Overworld",
             "zoomLevels": 9,
-            "defaultZoom": 1,
+            "defaultZoom": 5,
             "maxZoom": 9,
             "path": "mineskiday",
             "base": "",
@@ -71,7 +71,7 @@ var overviewerConfig = {
         {
             "name": "Nether",
             "zoomLevels": 8,
-            "defaultZoom": 1,
+            "defaultZoom": 5,
             "maxZoom": 8,
             "path": "mineskinether",
             "base": "",
