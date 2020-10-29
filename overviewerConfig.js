@@ -5,10 +5,10 @@ var overviewerConfig = {
             "defaultMarker": "signpost.png",
             "signMarker": "signpost_icon.png",
             "bedMarker": "bed.png",
-            "spawnMarker": "markers/marker_home.png",
-            "spawnMarker2x": "markers/marker_home_2x.png",
-            "queryMarker": "markers/marker_location.png",
-            "queryMarker2x": "markers/marker_location_2x.png",
+            "spawnMarker": "icons/marker_home.png",
+            "spawnMarker2x": "icons/marker_home_2x.png",
+            "queryMarker": "icons/marker_location.png",
+            "queryMarker2x": "icons/marker_location_2x.png",
             "compass": {
                 "0": "compass_upper-left.png",
                 "1": "compass_upper-right.png",
@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "mineski - overworld"
+        "mineski - overworld",
+        "mineski - nether"
     ],
     "map": {
-        "debug": false,
-        "cacheTag": "1603959953",
+        "debug": true,
+        "cacheTag": "1603998143",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -36,7 +37,7 @@ var overviewerConfig = {
             "compass": true,
             "mapType": true,
             "overlays": true,
-            "coordsBox": true
+            "coordsBox": false
         }
     },
     "tilesets": [
@@ -49,11 +50,11 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - overworld",
-            "last_rendertime": 0,
+            "last_rendertime": 1603880971,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 112,
                 84,
@@ -65,9 +66,30 @@ var overviewerConfig = {
                 84,
                 -128
             ],
-            "north_direction": 0,
-            "render_in_progress": true,
-            "forcerendertime": 1603959918
+            "north_direction": 0
+        },
+        {
+            "name": "Nether",
+            "zoomLevels": 8,
+            "defaultZoom": 5,
+            "maxZoom": 8,
+            "path": "mineskinether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "mineski - nether",
+            "last_rendertime": 1603879871,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": false,
+            "center": [
+                112,
+                84,
+                -128
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
         }
     ]
 };
