@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1603998143",
+        "cacheTag": "1604006404",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -37,33 +37,33 @@ var overviewerConfig = {
             "compass": true,
             "mapType": true,
             "overlays": true,
-            "coordsBox": false
+            "coordsBox": true
         }
     },
     "tilesets": [
         {
             "name": "Overworld",
             "zoomLevels": 9,
-            "defaultZoom": 5,
+            "defaultZoom": 1,
             "maxZoom": 9,
             "path": "mineskiday",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - overworld",
-            "last_rendertime": 1603880971,
+            "last_rendertime": 1604000748,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": false,
             "center": [
                 112,
-                84,
+                80,
                 -128
             ],
             "minZoom": 0,
             "spawn": [
                 112,
-                84,
+                80,
                 -128
             ],
             "north_direction": 0
@@ -71,20 +71,20 @@ var overviewerConfig = {
         {
             "name": "Nether",
             "zoomLevels": 8,
-            "defaultZoom": 5,
+            "defaultZoom": 1,
             "maxZoom": 8,
             "path": "mineskinether",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - nether",
-            "last_rendertime": 1603879871,
+            "last_rendertime": 1603991417,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": false,
             "center": [
                 112,
-                84,
+                80,
                 -128
             ],
             "minZoom": 0,
