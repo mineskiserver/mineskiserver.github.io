@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1604006404",
+        "cacheTag": "1604600797",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -37,20 +37,20 @@ var overviewerConfig = {
             "compass": true,
             "mapType": true,
             "overlays": true,
-            "coordsBox": false
+            "coordsBox": true
         }
     },
     "tilesets": [
         {
             "name": "Overworld",
             "zoomLevels": 9,
-            "defaultZoom": 5,
+            "defaultZoom": 1,
             "maxZoom": 9,
             "path": "mineskiday",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - overworld",
-            "last_rendertime": 1604000748,
+            "last_rendertime": 1604508836,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -71,13 +71,13 @@ var overviewerConfig = {
         {
             "name": "Nether",
             "zoomLevels": 8,
-            "defaultZoom": 5,
+            "defaultZoom": 1,
             "maxZoom": 8,
             "path": "mineskinether",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - nether",
-            "last_rendertime": 1603991417,
+            "last_rendertime": 1604267051,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
