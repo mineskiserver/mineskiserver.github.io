@@ -44,7 +44,7 @@ var overviewerConfig = {
         {
             "name": "Overworld",
             "zoomLevels": 9,
-            "defaultZoom": 1,
+            "defaultZoom": 6,
             "maxZoom": 9,
             "path": "mineskiday",
             "base": "",
@@ -71,7 +71,7 @@ var overviewerConfig = {
         {
             "name": "Nether",
             "zoomLevels": 8,
-            "defaultZoom": 1,
+            "defaultZoom": 6,
             "maxZoom": 8,
             "path": "mineskinether",
             "base": "",
