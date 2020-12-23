@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1606423371",
+        "cacheTag": "1608727142",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -44,13 +44,40 @@ var overviewerConfig = {
         {
             "name": "Overworld",
             "zoomLevels": 9,
-            "defaultZoom": 1,
+            "defaultZoom": 6,
             "maxZoom": 9,
             "path": "mineskiday",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - overworld",
-            "last_rendertime": 1606400190,
+            "last_rendertime": 1608580922,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": false,
+            "center": [
+                112,
+                80,
+                -128
+            ],
+            "minZoom": 0,
+            "spawn": [
+                112,
+                80,
+                -128
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Overworld",
+            "zoomLevels": 9,
+            "defaultZoom": 6,
+            "maxZoom": 9,
+            "path": "mineskinight",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "mineski - overworld",
+            "last_rendertime": 1608580922,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -71,13 +98,13 @@ var overviewerConfig = {
         {
             "name": "Nether",
             "zoomLevels": 8,
-            "defaultZoom": 1,
+            "defaultZoom": 6,
             "maxZoom": 8,
             "path": "mineskinether",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - nether",
-            "last_rendertime": 1606398033,
+            "last_rendertime": 1608580061,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
