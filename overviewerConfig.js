@@ -42,7 +42,7 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overworld",
+            "name": "Day",
             "zoomLevels": 9,
             "defaultZoom": 6,
             "maxZoom": 9,
@@ -69,7 +69,7 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Overworld",
+            "name": "Night",
             "zoomLevels": 9,
             "defaultZoom": 6,
             "maxZoom": 9,
