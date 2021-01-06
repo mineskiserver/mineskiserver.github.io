@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1608727142",
+        "cacheTag": "1609942678",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -42,7 +42,7 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Day",
+            "name": "Overworld",
             "zoomLevels": 9,
             "defaultZoom": 6,
             "maxZoom": 9,
@@ -50,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - overworld",
-            "last_rendertime": 1608580922,
+            "last_rendertime": 1609874014,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -69,7 +69,7 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Night",
+            "name": "Overworld",
             "zoomLevels": 9,
             "defaultZoom": 6,
             "maxZoom": 9,
@@ -77,7 +77,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - overworld",
-            "last_rendertime": 1608580922,
+            "last_rendertime": 1609874014,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -97,14 +97,14 @@ var overviewerConfig = {
         },
         {
             "name": "Nether",
-            "zoomLevels": 8,
+            "zoomLevels": 9,
             "defaultZoom": 6,
-            "maxZoom": 8,
+            "maxZoom": 9,
             "path": "mineskinether",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "mineski - nether",
-            "last_rendertime": 1608580061,
+            "last_rendertime": 1609866331,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
